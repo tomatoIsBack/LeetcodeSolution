@@ -8,3 +8,7 @@ head = ListNode(sum);
 cur = head;  
 cur.next = ListNode(sum2);  
 cur = cur.next;
+***
+初始化一个节点的时候只用把值存进去就行了，next节点可以后面再加
+***
+python里不用判断if xxx == None,用if xxx就行了
